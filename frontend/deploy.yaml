@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: srini2390/cwvj-app1
+          image: srini2390/cwvj-app1:v1
           ports:
             - containerPort: 4000
           env:
